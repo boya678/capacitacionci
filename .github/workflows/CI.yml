@@ -36,4 +36,7 @@ jobs:
           -Dsonar.projectKey=julian
           -Dsonar.projectName=julian
         projectBaseDir: .
+    - name: SonarQube Quality Gate Check
+      uses: SonarSource/sonarqube-quality-gate-action@v1.1.0
+      
     
