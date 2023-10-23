@@ -23,7 +23,7 @@ export class TodoAppComponent {
       return alert('What do you need to write?');
     }
     this.todoService.addTodo(new Todo({
-      value: this.newTodo2sssss
+      value: this.newTodo
     }));
     this.newTodo = '';
   }
