@@ -23,6 +23,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e --webdriver-update=false"
   },
+  
   "private": true,
   "dependencies": {
     "@angular/animations": "^6.0.0",
